@@ -1,0 +1,6 @@
+howDoIGetANaturalRange = "do [1..n]"
+howDoIGetAnAlphabetRange = "do [a..z] or [A..Z]"
+howDoIControlTheStep = "do [d,a..n]"
+whatAboutFloatRange = "be careful because floats aren't fully precise so you get funky results, try [0.1,0.5..1]"
+canIDoInfiteLists = "yes just don't declare the upper limit: [1,5..], but because haskell is lazy it will only start evaluating the infinite terms when you want some of them, i.e take 24[13,26..]"
+howToMakeInfiteListsAlternatively = "cycle repeats a list ad infinitum, repeat does the same with a single element (but its better to do replicate {n} {element} as you don't need an infinite number of elements)"
