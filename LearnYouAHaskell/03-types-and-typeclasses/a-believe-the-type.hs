@@ -1,0 +1,3 @@
+whatIsAType = "it is a label of the category of the data, in haskell the language can often infer the type of a variable on its own which is quite convenient. You can check the type of some data with :t {expression}"
+shouldIDeclareTheTypesOfMyFunctions = "yes, its good practice to explicitely do so. You declare the type of the input and output like so: foo :: t1 -> t2"
+howDoWeDeclareTheTypeOfAMultiInputFunction = "addThree :: Int -> Int -> Int -> Int, addThree x y z = x+y+z. As you can see the last type is the type of the output and the preceding ones are the inputs."
