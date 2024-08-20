@@ -1,0 +1,1 @@
+whatAreCaseExpressions = "these are the underlying functionality to patterns in function defintions where theere are multiple bodies defined for different cases. Instead they can be used on their own with the same pattern matching with the following syntax: case {expression} of {pattern} -> {result}; {pattern} -> {result};..."
