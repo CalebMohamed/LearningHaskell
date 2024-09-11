@@ -1,4 +1,4 @@
-whatIsAFold = "often in the examples of recursion we use an edge case, and an x:xs pattern to recursively perform a function on each element in a list. Because this is so common a class of functions where created to perfom a similar thing where they reduce a list to a single value. foldl - left fold, folds a list down from the left - it takes as parameters a binary function, a starting value and a list to fold. the binary function is called with the current value and the new head of the list before the head is removed:"
+whatIsAFold = "often in the examples of recursion we use an edge case, and an x:xs pattern to recursively perform a function on each element in a list. Because this is so common a class of functions were created to perfom a similar thing where they reduce a list to a single value. foldl - left fold, folds a list down from the left - it takes as parameters a binary function, a starting value and a list to fold. the binary function is called with the current value and the new head of the list before the head is removed:"
 
 -- sum' :: (Num a) => [a] -> a
 -- sum' = foldl (\acc x -> acc + x) 0
