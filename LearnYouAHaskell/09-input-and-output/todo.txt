@@ -1,0 +1,3 @@
+get oranges
+get bananas
+get apples
